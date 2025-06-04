@@ -1,9 +1,0 @@
-[
-  {
-    "id": "identificador-unico-libro-1",
-    "title": "Título del Libro Uno",
-    "author": "Autor del Libro Uno",
-    "epubUrl": "ruta/relativa/al/libro1.epub",
-    "coverImageUrl": "ruta/relativa/a/la/portada1.jpg"
-  }
-]
