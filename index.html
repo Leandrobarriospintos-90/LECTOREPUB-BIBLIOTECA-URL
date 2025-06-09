@@ -826,30 +826,12 @@
         let remoteLibraryBooks = [];
 
         // Configuration for the remote library
-        const REMOTE_LIBRARY_CONFIG = {
+        const MOCK_LIBRARY_INDEX = {
             // IMPORTANT: Replace this with the actual base URL of your EPUB library server
             // Ensure it ends with a trailing slash '/'
             baseUrl: "https://leandrobarriospintos-90.github.io/LECTOREPUB-BIBLIOTECA-URL/", // <<<< REPLACE THIS
-            indexFile: "library_index.json" 
+            indexFile: "library_index.json"
         };
-
-// Mock library index for demonstration if actual fetch fails or for development
-        const MOCK_LIBRARY_INDEX = [
-          {
-            "id": "esas-cosas-id",
-            "title": "Esas cosas que se saben",
-            "author": "Marcos Tabossi",
-            "epubUrl": "epub/esas_cosas_edunlu.epub", 
-            "coverImageUrl": "covers/tapa_esas_cosas.jpg" 
-          },
-          {
-            "id": "Esas-cosas-que-se-saben-id",
-            "title": "Esas cosas que se saben",
-            "author": "Marcos Tabossi",
-            "epubUrl": "epub/esas_cosas_que_se_saben.epub",
-            "coverImageUrl": "covers/tapa_esas_cosas.jpg"
-          },
-        ];
         
         const defaultUserPreferences = {
             fontSizePercent: 100, 
